@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=REM:wght@200&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=REM:wght@200&family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*--------------SJC LOGO---------------*/
+#sjc-logo {
+  background-image: url("sjc\ logo.png");
+  width: 140px;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 70px;
+  overflow: hidden;
+}
+#logo {
+  display: flex;
+  position: absolute;
+  left: 170px;
+  top: 20px;
+  /*------------LOGO END----------------*/
+}
+#home {
+  background: linear-gradient(blue, black);
+  background-color: " ";
+  width: 100%;
+  height: 180px;
+}
+/*------------SJC WORDS-----------------*/
+#sjc-word {
+  display: flex;
+  position: absolute;
+  top: 8%;
+  left: 3%;
+  font-size: 30px;
+  font-family: cursive;
+  color: white;
+}
+.tech {
+  display: flex;
+  position: absolute;
+  right: 2%;
+  top: 10%;
+  font-size: 30px;
+  font-family: cursive;
+  word-spacing: 5px;
+  font-weight: 900;
+  border-radius: 10px;
+  color: red;
+  background-color: white;
+}
+/*animation-name: word-change;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes word-change {
+  25% {
+    background-color: red;
+  }
+  50% {
+    background-color: blue;
+  }
+  75% {
+    background-color: greenyellow;
+  }
+  95% {
+    background-color: yellow;
+  }
+}*/
+
+/*--------------content page---------------*/
+#register {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px 20px;
+  color: black;
+  background-color: blue;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+}
+.drop {
+  color: red;
+  font-size: 20px;
+  text-decoration: none;
+}
+ul li a {
+  text-decoration: none;
+  list-style: none;
+}
+#winner {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 65%;
+  left: 45%;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 10px 20px;
+  background-color: blue;
+  border-radius: 50px;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+}
+#image {
+  background-image: url("2.jpg");
+  width: 100%;
+  height: 640px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*--------------FOOTER PAGE------------------*/
+.footer-page {
+  background-color: black;
+  width: 100%;
+  height: 80px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+#page {
+  position: relative;
+  top: -40px;
+}
+#copy {
+  text-align: center;
+}
+.fa-brands {
+  background-color: black;
+  color: white;
+}
+
+/*---------------MEDIA QUERY--------------*/
+@media screen and (max-width: 700px) {
+  #sjc-logo {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -6px;
+    right: 3%;
+  }
+  #sjc-word {
+    font-size: 20px;
+    position: absolute;
+    top: 15px;
+    left: 80px;
+  }
+  .tech {
+    flex-direction: column;
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    text-align: center;
+  }
+  #register {
+    font-size: 20px;
+    position: absolute;
+    left: 120px;
+    margin-bottom: -90px;
+  }
+  #winner {
+    font-size: 20px;
+    position: absolute;
+    left: 120px;
+    margin-bottom: -150px;
+  }
+  /*-----------------FOOTER PAGE----------------*/
+  .footer-page {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shift1</title>
+    <link rel="stylesheet" href="shift-1,2.css" />
+  </head>
+  <body>
+    <div id="home">
+      <div id="logo">
+        <div id="sjc-logo"></div>
+      </div>
+      <div id="sjc-word">
+        <h1>SJC</h1>
+      </div>
+
+      <div class="tech">
+        <h4>TECHXTRA'23 & DHAMAKA-PG DEPARTMENT OF COMPUTER APPLICATIONS</h4>
+      </div>
+    </div>
+    <!------------------BUTTONS---------------------->
+    <div class="btn">
+      <input type="button" onclick="winnerlist()" class="winner" value="PPT" />
+      <input
+        type="button"
+        onclick="winnerlist()"
+        class="winner"
+        value="WEB-DESING"
+      />
+      <input type="button" onclick="winnerlist()" class="winner" value="QUIZ" />
+      <input
+        type="button"
+        onclick="winnerlist()"
+        class="winner"
+        value="CODE-BLAST"
+      />
+    </div>
+    <script>
+      const winnerlist = () => {
+        const student = document.querySelectorAll("winner").value;
+        document.write("JERIN SUJITH" + " I M.SC(IT)");
+      };
+    </script>
+  </body>
+</html>

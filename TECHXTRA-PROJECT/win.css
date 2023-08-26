@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#shift1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 40%;
+  left: 48.4%;
+  border: 2px solid black;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: blue;
+  font-family: bold;
+}
+#shift2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 48.4%;
+  border: 2px solid black;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: blue;
+  font-family: bold;
+  margin-top: 30px;
+}
+#shift1:hover {
+  border: 3px solid red;
+}
+#shift2:hover {
+  border: 3px solid red;
+}
+
+#image {
+  background-image: url("hacker.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+/*-----------------DROP DROWN MENU---------------*/
+.drop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  flex-direction: column;
+  list-style: none;
+  font-size: 30px;
+}
+.bottom {
+  border: 5px solid white;
+  position: relative;
+  top: 100%;
+  left: 110%;
+  display: flex;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+.menus {
+  list-style: none;
+  text-decoration: none;
+  display: none;
+  position: relative;
+  margin-top: 100px;
+}
+.dai-vada {
+  border: 5px solid white;
+  margin-left: 410px;
+
+  display: flex;
+}
+
+.drop li:nth-child(1):hover .menus {
+  display: block;
+  color: red;
+}
+.drop li:nth-child(4):hover .menus {
+  display: block;
+  color: red;
+  overflow: hidden;
+}
+@media screen and (max-width: 800px) {
+  #shift1 {
+    font-size: 25px;
+    margin-left: -40px;
+  }
+  #shift2 {
+    font-size: 25px;
+    margin-left: -40px;
+  }
+  .bottom {
+    font-size: 20px;
+  }
+  .dai-vada {
+    font-size: 20px;
+    margin-right: 160px;
+  }
+}

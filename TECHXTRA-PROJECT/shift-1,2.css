@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*--------------SJC LOGO---------------*/
+#sjc-logo {
+  background-image: url("sjc\ logo.png");
+  width: 140px;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 70px;
+  overflow: hidden;
+}
+#logo {
+  display: flex;
+  position: absolute;
+  left: 170px;
+  top: 20px;
+}
+#home {
+  background: linear-gradient(blue, black);
+  background-color: " ";
+  width: 100%;
+  height: 180px;
+}
+#sjc-word {
+  display: flex;
+  position: absolute;
+  top: 8%;
+  left: 3%;
+  font-size: 30px;
+  font-family: cursive;
+  color: white;
+}
+.tech {
+  display: flex;
+  position: absolute;
+  right: 2%;
+  top: 10%;
+  font-size: 30px;
+  font-family: cursive;
+  word-spacing: 5px;
+  font-weight: 900;
+  border-radius: 10px;
+  color: red;
+  background-color: white;
+}
+/*-------------------BUTTONS------------------*/
+.btn {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 77vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: wheat;
+  margin-top: 1px;
+}
+
+.winner {
+  display: inline-block;
+  padding: 10px 20px;
+
+  color: white;
+  background: linear-gradient(blue, black);
+  border-radius: 10px;
+  font-size: 30px;
+}
+.winner:hover {
+  border: 5px solid red;
+}
