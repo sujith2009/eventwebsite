@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="pass.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Simple Password Generator</h2>
+      <form action="#" id="form-action">
+        <div class="form-group">
+          <input type="text" required id="output" />
+          <button id="btnCopy">Copy</button>
+        </div>
+
+        <div class="form-group">
+          <label for="length">Password Length</label>
+          <input type="number" value="8" min="7" id="length" required />
+        </div>
+
+        <div class="form-group">
+          <input type="checkbox" id="numbers" checked required />
+          <label for="numbers">Number</label>
+        </div>
+
+        <div class="form-group">
+          <input type="checkbox" id="capatial" required />
+          <label for="capatial">Capatial</label>
+        </div>
+
+        <div class="form-group">
+          <input type="checkbox" id="small" required />
+          <label for="small">Small</label>
+        </div>
+
+        <div class="form-group">
+          <input type="checkbox" id="symbol" required />
+          <label for="symbol">Symbols</label>
+        </div>
+
+        <div class="form-group">
+          <button id="btn" type="button">Genarate Password</button>
+        </div>
+        <h2>&copy;Jerin Sujith</h2>
+      </form>
+    </div>
+    <script src="pass.js"></script>
+  </body>
+</html>
