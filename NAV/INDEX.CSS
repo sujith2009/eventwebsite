@@ -76,23 +76,12 @@ img {
   color: white;
 }
 /*---------------CARD-DESIGNING-------*/
-#row {
-  margin-top: 23px;
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-.col {
-  width: 500px;
-  height: 600px;
-  background-color: red;
-  padding: 10px;
-}
-#card {
-  width: 400px;
-  text-align: center;
-  background-color: rgb(224, 165, 165);
-  margin-left: 50px;
-  margin-top: 30px;
-}
-#card-img {
-  margin-left: 69px;
-  padding: 20px;
+.btn {
+  color: white !important;
 }
