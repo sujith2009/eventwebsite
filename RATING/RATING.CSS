@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.btn {
+  border: none;
+  background-color: unset;
+  font-size: 40px;
+  color: gold;
+  cursor: pointer;
+}
+p {
+  font-size: 30px;
+}
