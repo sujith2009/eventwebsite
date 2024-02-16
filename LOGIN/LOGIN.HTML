@@ -15,7 +15,7 @@
   <body>
     <div class="container-fluid">
       <form class="mx-auto" onsubmit="validateCheckbox()">
-        <h4 class="text-center mb-4 text-uppercase">Login</h4>
+        <h2 class="text-center mb-4 text-uppercase" style="margin-top: -20px;">Login</h4>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label"
             >Participant Name-1</label
@@ -153,10 +153,14 @@
       function validateCheckbox() {
         var checkboxes = document.querySelectorAll(".form-check-input");
         if (checkboxes.length !== 2) {
-          alert("Please select exactly two checkboxes.");
+          var people = checkboxes.length;
+          alert("Please select exactly two events.");
           return false;
         }
-        return true;
+        if (checkboxes.length == people) {
+          alert("Thank you");
+        }
+        return false;
       }
     </script>
     <script src="login.js"></script>
