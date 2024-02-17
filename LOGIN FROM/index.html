@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkbox Validation</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h2 class="text-center mb-4 text-uppercase" style="margin-top: -20px;">Register</h4>
+          <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Participant Name-1</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"
+            >Participant Name-2</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputPassword1"
+            required
+          />
+        </div>
+        <!----------COLLEGR NAME----------->
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"
+            >Colllege Name</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputPassword1"
+            required
+          />
+        </div>
+        <!------MOBILE NIMNER--------------->
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"
+            >Participant Name-1 Mobile Number</label
+          >
+          <input
+            type="number"
+            class="form-control"
+            id="exampleInputPassword1"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label"
+            >Participant Name-2 Mobile Number</label
+          >
+          <input
+            type="number"
+            class="form-control"
+            id="exampleInputPassword1"
+            required
+          />
+        </div>
+      <h3>Checkbox Validation (Select only 2)</h3>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="checkbox1" />
+        <label class="form-check-label" for="checkbox1"
+          >Paper Presentation</label
+        >
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="checkbox2" />
+        <label class="form-check-label" for="checkbox2">Web Design</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="checkbox3" />
+        <label class="form-check-label" for="checkbox3">Code Drive</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="checkbox3" />
+        <label class="form-check-label" for="checkbox3">Sql Clash</label>
+      </div>
+       <button type="submit" class="btn btn-primary btn-md-col-6">
+          submit
+        </button>
+    </div>
+
+    <!-- Bootstrap JS and jQuery (required for checkbox validation) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        var checkboxes = $(".form-check-input");
+        checkboxes.change(function () {
+          var checked = checkboxes.filter(":checked").length;
+          if (checked > 2) {
+            this.checked = false;
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
