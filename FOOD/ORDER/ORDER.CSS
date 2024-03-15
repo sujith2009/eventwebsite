@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  color: #fff !important;
+}
+body {
+  background-color: #191919 !important;
+}
+.navbar .container-fluid {
+}
+.navbar {
+  background-color: #be2a2a !important;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 99;
+}
+.navbar-brand img {
+  color: #fff !important;
+  background-color: #ffff !important;
+  border-radius: 50%;
+}
+.nav-link {
+  color: black !important;
+  font-size: 23px !important;
+  font-family: monospace;
+  margin-left: 10px !important;
+  color: #ffff !important;
+  font-weight: bold;
+}
+.nav-link:hover {
+  background-color: #fff;
+  color: black !important;
+  border-radius: 10%;
+}
+#btn {
+  background-color: #fff !important;
+  color: #fff !important;
+}
+.navbar-toggler-icon {
+  color: black !important;
+}
+
+.bi-cart {
+  font-size: 33px;
+  display: flex;
+  justify-content: end;
+  position: relative !important;
+  right: 0 !important;
+  margin-right: 10px;
+  color: #fff;
+  position: relative;
+}
+.card-number {
+  position: absolute;
+  top: -70%;
+  right: 10%;
+}
+.card {
+  position: relative;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transform: 0.1s !important;
+}
+
+.card img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+.card-title {
+  color: #be2a2a !important;
+  font-weight: bold;
+  font-size: 25px !important;
+}
+.card-text {
+  color: #be2a2a;
+  font-weight: bold;
+}
+.stars {
+  display: inline-block;
+  color: yellow;
+  font-weight: bold;
+  font-size: 20px;
+}
+.add {
+  position: absolute;
+  right: 0;
+  color: #be2a2a;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -13px;
+}

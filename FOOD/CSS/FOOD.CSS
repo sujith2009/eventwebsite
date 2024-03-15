@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.945) !important;
+}
+.navbar .container-fluid {
+}
+.navbar {
+  background-color: #be2a2a !important;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 99;
+}
+.navbar-brand img {
+  color: #fff !important;
+  background-color: #ffff !important;
+  border-radius: 50%;
+}
+.nav-link {
+  color: black !important;
+  font-size: 23px !important;
+  font-family: monospace;
+  margin-left: 10px !important;
+  color: #ffff !important;
+  font-weight: bold;
+}
+.nav-link:hover {
+  background-color: #fff;
+  color: black !important;
+  border-radius: 10%;
+}
+#btn {
+  background-color: #fff !important;
+  color: #fff !important;
+}
+.navbar-toggler-icon {
+  color: black !important;
+}
+
+.bi-cart {
+  font-size: 33px;
+  display: flex;
+  justify-content: end;
+  position: relative !important;
+  right: 0 !important;
+  margin-right: 10px;
+  color: #fff;
+}
+/*-------------------------------ABOUTUS PAGE-----------------------------*/
+.about {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+}
+#about {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../IMAGES/briyani-abouts.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.youtube {
+  font-size: 20px !important;
+}
+#order {
+}
+#order a {
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #fff !important;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+#youtube a {
+  padding: 10px 20px !important;
+  font-size: 20px;
+  color: #ffff;
+  border-radius: 50% !important;
+}
+.btn {
+  padding: 10px 30px;
+  color: #be2a2a;
+}
+.card img {
+}
+h1 {
+  font-size: 50px;
+}
+.Welcome {
+  font-size: 50px;
+  color: #be2a2a;
+  font-family: monospace;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.Delicious {
+  color: #be2a2a;
+  font-family: monospace;
+  font-weight: 800;
+  font-size: 45px;
+  font-weight: bold;
+}
+#about-para {
+  text-align: justify !important;
+  color: #fff;
+  font-weight: 600;
+}
+.card {
+  position: relative;
+}
+.card img {
+  object-fit: cover;
+}
+.card-text {
+  color: red;
+  font-weight: bold;
+  display: flex !important;
+}
+.stars {
+  color: yellow;
+  font-weight: bold;
+}
+.add {
+  color: red;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  font-size: 25px;
+  margin-top: -15px;
+}
+#a-img {
+  padding-left: 30px;
+}
+.bi-bicycle {
+  color: #fff !important;
+  font-size: 46px !important;
+}
+.bike {
+  font-size: 20px;
+  margin-top: -20px;
+}
+.fast-delivers {
+  display: flex;
+}
+.fast-boy {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #ffff;
+}
+.pickup {
+  color: #fff !important;
+  font-size: 18px !important;
+
+  text-align: center;
+}
+.fa-truck-pickup {
+  font-size: 50px !important;
+}
+.pickup-to {
+  color: #fff !important;
+
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #ffff;
+}
+.dinner {
+  padding-left: 80px;
+  color: #fff !important;
+
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #ffff;
+}
+.fa-utensils {
+  font-size: 50px !important;
+}
+button .carousel-control-prev-icon {
+  color: white !important;
+}
+/*================================CAROSOEL========================*/
+.carousel {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100vh !important;
+  padding: 20px 40px;
+}
+#Tasty {
+  font-size: 50px;
+  font-family: cursive;
+  font-weight: bold;
+}
+.card img {
+  height: 200px;
+}
+.card .card-text {
+  text-align: justify;
+  font-family: cursive;
+}
+/*=======================================MEEDIA========================*/
+.media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45vh;
+  background-color: #fff;
+}
+.images-groups img {
+  margin-right: 20px;
+  padding-bottom: 10px;
+  border: 4px solid #191919;
+}
+/*--------------------TESTIMONAL-----------------------*/
+.testimonual {
+  background-color: #191919;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 1px 1px rgba(206, 204, 204, 0.897),
+    0 2px 2px rgba(240, 237, 237, 0.897), 0 4px 4px rgba(211, 207, 207, 0.87),
+    0 8px 8px rgba(216, 213, 213, 0.877);
+}
+#test-img {
+  border-radius: 50%;
+  position: relative;
+  left: 12%;
+}
+.carousel-item p {
+  text-align: justify;
+}
+.testimonual .card {
+  box-shadow: 0 1px 1px rgba(206, 204, 204, 0.897),
+    0 2px 2px rgba(240, 237, 237, 0.897), 0 4px 4px rgba(211, 207, 207, 0.87),
+    0 8px 8px rgba(216, 213, 213, 0.877);
+}
+/*==============================FOOTER====================*/
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+
+  background-color: #f0eeee;
+}
+
+.footer-head .for-party h2 {
+  font-size: 50px !important;
+  color: #fff;
+  font-weight: bold;
+}
+#footer-btn {
+  background-color: #191919;
+  color: #fff;
+  font-family: cursive;
+  padding: 10px 23px;
+}
+.footer-head .footer-para {
+  font-size: 20px;
+  color: #b61313;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+/*================================FOOTER TWO========================*/
+.footer-part-two {
+  display: flex;
+  justify-content: center;
+}
+.footer-cin {
+  color: #fff;
+}
+.footer-gst {
+  color: #fff;
+}
+.bi-building {
+  padding-right: 4px;
+  font-size: 20px;
+}
+.build {
+  color: #fff;
+}
+
+.street {
+  color: #ffff;
+}
+.street .bi-signpost {
+  color: #fff;
+  font-size: 20px;
+}
+.telephone {
+  color: #ffff;
+}
+.telephone .bi-telephone-plus {
+  padding-right: 3px;
+}
+.mail .bi-envelope-at {
+  padding-right: 3px;
+  color: #fff;
+}
+.time {
+  display: flex !important;
+  flex-direction: column !important;
+  color: #fff;
+  font-size: 20px;
+}
+.media-icons {
+  color: #fff;
+  font-size: 30px;
+}
