@@ -1,0 +1,174 @@
+ /* Reset styles for pseudo-elements */
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default underline from links */
+a {
+  text-decoration: none;
+}
+
+/* Remove default list-style from lists */
+li {
+  list-style: none;
+}
+
+/* Styling for headings */
+h1 {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+/* Set font family for the body */
+
+/* Flexbox wrapper for the sidebar */
+.wrapper {
+  display: flex;
+}
+
+/* Sidebar container */
+#sidebar {
+  width: 50px;
+  min-width: 50px;
+  z-index: 1000;
+  transition: all 0.25s ease-in-out;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar-item span {
+  font-size: 20px;
+  font-family: "HelveticaNowText";
+  color: #fff;
+}
+/* Expand the sidebar */
+#sidebar.expand {
+  width: 260px;
+  min-width: 260px;
+}
+
+/* Hide logo and text when sidebar is collapsed */
+#sidebar:not(.expand) .sidebar-logo,
+#sidebar:not(.expand) a.sidebar-link span {
+  display: none;
+}
+
+/* Sidebar navigation */
+.sidebar-nav {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 20px 20px;
+}
+#side-color{
+    background-color: #fff;
+}
+/* Sidebar links */
+/* Sidebar links */
+a.sidebar-link {
+  /* padding: 0.625rem 1.625rem; */
+  color: black;
+  display: block;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  border-left: 3px solid transparent;
+  min-width: 50%; /* Set the width to 50% */
+}
+
+/* Icon styling */
+.sidebar-link i {
+  font-size: 1.1rem;
+  margin-right: 0.75rem;
+}
+
+/* Hover effect for sidebar links */
+a.sidebar-link:hover {
+  /* background-color: rgba(255, 255, 255, 0.075); */
+  /* border-left: 3px solid #3b7ddd; */
+}
+.sidebar-item a {
+  font-size: 15px !important;
+  font-family: "HelveticaNowText";
+  margin-bottom: 10px !important;
+  padding: 5px 50px;
+}
+/* Dropdown menu styling */
+.sidebar-item {
+  position: relative;
+  background: #DA627D;
+
+
+  /* background-color: #d1cfcf !important; */
+}
+.sidebar-item button a{
+  padding: 5px 5px !important;
+}
+
+/* Dropdown menu position and appearance */
+#sidebar:not(.expand) .sidebar-item .sidebar-dropdown {
+  position: absolute;
+  top: 0;
+  left: 70px;
+  background-color: #ffff;
+  padding: 0;
+  min-width: 15rem;
+  display: none;
+}
+
+/* Show dropdown menu on hover */
+#sidebar:not(.expand) .sidebar-item:hover .has-dropdown + .sidebar-dropdown {
+  display: block;
+}
+
+/* Styling for dropdown arrow icon */
+#sidebar.expand .sidebar-link[data-bs-toggle="collapse"]::after {
+  border: solid;
+  border-width: 0 0.075rem 0.075rem 0;
+  content: "";
+  display: inline-block;
+  padding: 2px;
+  position: absolute;
+  right: 1.5rem;
+  top: 1.4rem;
+  transform: rotate(-135deg);
+  transition: all 0.2s ease-out;
+}
+.wrapper .sidebar-nav .sidebar-item #category-a{
+  background-color: #fff !important;
+}
+/* Change arrow direction when dropdown is collapsed */
+#sidebar.expand .sidebar-link[data-bs-toggle="collapse"].collapsed::after {
+  transform: rotate(45deg);
+}
+@media (max-width: 992px) {
+    .sidebar-nav {
+        padding-left: 20px;
+        width: 142%;
+        
+        
+    }
+
+    .sidebar-item {
+        
+        margin-bottom: 10px;
+    }
+
+    .sidebar-dropdown {
+        position: relative;
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+  .sidebar-nav {
+      width: 100% !important;
+        
+        
+    }
+    .sidebar-link {
+        padding-left: 25px;
+    }
+}
