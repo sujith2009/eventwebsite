@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e8bcb9 !important;
+}
+.container {
+  background-color: #ffff;
+  padding: 30px 40px !important;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.aboutus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 40px;
+}
+.aboutus .container p {
+  text-align: justify !important;
+}

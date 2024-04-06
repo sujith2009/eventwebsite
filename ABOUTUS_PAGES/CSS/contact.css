@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+.container {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 20px 30px !important;
+}
+.card-body p .bi-envelope,
+.bi-telephone,
+.bi-geo-alt {
+  font-size: 20px !important;
+  color: blue;
+}
+.card {
+}
+.card-body h5 h6 {
+  margin-top: -20px !important;
+}
+/*====*/
+#formGroupExampleInput2::placeholder {
+  padding-top: -30px !important; /* Adjust as needed */
+}
+.btn {
+  border-radius: 20px !important;
+  font-family: serif !important;
+  font-size: 20px !important;
+}
+input {
+  height: 50px !important;
+}
+
+.maps_google {
+  width: 100%;
+}
+
+.map-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 aspect ratio */
+}
+
+.map-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 575px) {
+  input.form-control {
+    width: 100% !important;
+  }
+}
