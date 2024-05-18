@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  background-color: #025b6f;
+  /* box-shadow: 0 10px 20px #fff, 0 6px 6px #fff !important; */
+}
+label {
+  font-size: 18px;
+  font-weight: 600;
+}
+input {
+  width: 100% !important;
+}
+.form {
+  background-color: white;
+}
+.mb-3-sucess input {
+  border-color: rgba(33, 255, 63, 0.664);
+}
+.mb-3-error input {
+  border-color: rgba(211, 23, 54, 0.884) !important;
+}
+.required-alert-active {
+  color: red;
+}
+.p {
+  color: red !important;
+}
+button {
+  width: 100% !important;
+}
+
+.spinner-border {
+  margin-left: 130px !important;
+}

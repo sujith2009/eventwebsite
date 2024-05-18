@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #456645;
+}
+.container {
+  background-color: #ffff;
+  padding: 30px 30px;
+  border-radius: 5px !important;
+}
+.time,
+.date {
+  text-align: center;
+  font-size: 25px;
+}

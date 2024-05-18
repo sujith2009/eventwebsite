@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  background-color: rgba(209, 209, 235, 0.836);
+  margin-bottom: 40px;
+}
+#search-icon {
+  margin-top: -34px;
+  margin-right: 20px;
+  font-size: 22px;
+  float: right;
+}
+.card {
+  width: 140%;
+  padding: 10px 50px;
+}
+#exampleInputEmail1 {
+  height: 50px;
+}
+#rain-img {
+  margin-top: 5px;
+  width: 150px;
+  margin-left: 120px;
+}
+.temp,
+.city,
+.country {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 2px;
+  text-align: center;
+}
+.city {
+  color: #f4f80d;
+  font-weight: 700;
+}
+.country {
+  font-size: 17px;
+}
+.cord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+.cord div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.cord div span {
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.element img {
+  width: 80px;
+}
+.data-container {
+  display: flex;
+  justify-content: space-between;
+}
+.data-container .element {
+  text-align: center;
+}
+.element .window-data {
+  margin-top: 30px;
+}
+.humu-data,
+.window-data,
+.text {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 600;
+}

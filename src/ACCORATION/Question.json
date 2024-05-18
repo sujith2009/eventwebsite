@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "question": "What is Mumbai Indian Captain ?",
+    "options": [
+      "Horlicks pandya",
+      "Harpic pandya",
+      "Hardiks pandya",
+      "Hardik pandya"
+    ],
+    "correOption": "Hardik pandya"
+  },
+  {
+    "id": 2,
+    "question": "MI full Form ?",
+    "options": [
+      "Umpire Indians",
+      "Ambani Indians",
+      "Mumbai Indians",
+      "Money Indians"
+    ],
+    "correOption": "Mumbai Indians"
+  },
+  {
+    "id": 3,
+    "question": "CSK full Form ?",
+    "options": [
+      "Chennai Fixer Kings",
+      "Chennai Super Kings",
+      "Chennai Sambar Kings",
+      "Chennai Socket Kings"
+    ],
+    "correOption": "Chennai Super Kings"
+  },
+  {
+    "id": 4,
+    "question": "Virat ____ Second Name ?",
+    "options": ["Virat Kozhi", "Virat Kali", "Virat Kohli", "Virat Killi"],
+    "correOption": "Virat Kohli"
+  }
+]
